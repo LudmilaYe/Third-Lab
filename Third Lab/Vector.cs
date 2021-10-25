@@ -2,11 +2,15 @@
 
 namespace Third_Lab
 {
-    class Vector
+    public class Vector
     {
         private double _x;
         private double _y;
         private double _z;
+
+        public double X => _x;
+        public double Y => _y;
+        public double Z => _z;
 
         public Vector(double x, double y, double z)
         {
