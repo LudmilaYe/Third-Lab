@@ -86,5 +86,10 @@ namespace Third_Lab
         {
             Calculate();
         }
+
+        private void actionBox_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            e.Handled = true;
+        }
     }
 }

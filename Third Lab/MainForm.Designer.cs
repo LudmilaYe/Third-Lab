@@ -97,6 +97,7 @@ namespace Third_Lab
             this.actionBox.TabIndex = 3;
             this.actionBox.Text = "+";
             this.actionBox.SelectedIndexChanged += new System.EventHandler(this.actionBox_SelectedIndexChanged);
+            this.actionBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.actionBox_KeyPress);
             // 
             // firstZ
             // 
