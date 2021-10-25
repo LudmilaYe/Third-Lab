@@ -272,6 +272,7 @@ namespace Third_Lab
             this.resultZ.ReadOnly = true;
             this.resultZ.Size = new System.Drawing.Size(135, 20);
             this.resultZ.TabIndex = 19;
+            this.resultZ.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Values_KeyPress);
             // 
             // resultY
             // 
@@ -280,6 +281,7 @@ namespace Third_Lab
             this.resultY.ReadOnly = true;
             this.resultY.Size = new System.Drawing.Size(135, 20);
             this.resultY.TabIndex = 18;
+            this.resultY.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Values_KeyPress);
             // 
             // resultX
             // 
@@ -288,6 +290,7 @@ namespace Third_Lab
             this.resultX.ReadOnly = true;
             this.resultX.Size = new System.Drawing.Size(135, 20);
             this.resultX.TabIndex = 17;
+            this.resultX.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Values_KeyPress);
             // 
             // label10
             // 
@@ -314,6 +317,7 @@ namespace Third_Lab
             this.scalarProduct.ReadOnly = true;
             this.scalarProduct.Size = new System.Drawing.Size(128, 20);
             this.scalarProduct.TabIndex = 41;
+            this.scalarProduct.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Values_KeyPress);
             // 
             // length1
             // 
@@ -322,6 +326,7 @@ namespace Third_Lab
             this.length1.ReadOnly = true;
             this.length1.Size = new System.Drawing.Size(128, 20);
             this.length1.TabIndex = 44;
+            this.length1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Values_KeyPress);
             // 
             // label11
             // 
@@ -348,6 +353,7 @@ namespace Third_Lab
             this.length2.ReadOnly = true;
             this.length2.Size = new System.Drawing.Size(128, 20);
             this.length2.TabIndex = 47;
+            this.length2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Values_KeyPress);
             // 
             // label13
             // 

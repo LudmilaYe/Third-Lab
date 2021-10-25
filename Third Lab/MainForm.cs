@@ -68,6 +68,10 @@ namespace Third_Lab
 
         private void Values_KeyPress(object sender, KeyPressEventArgs e)
         {
+            if (e.KeyChar == (char)Keys.Enter) 
+            {
+                SendKeys.Send("{TAB}"); 
+            }
             if (char.IsDigit(e.KeyChar) || e.KeyChar == ',' || e.KeyChar == (char)Keys.Back || e.KeyChar == '-')
             { 
                 return;
@@ -89,6 +93,7 @@ namespace Third_Lab
 
         private void actionBox_KeyPress(object sender, KeyPressEventArgs e)
         {
+            SendKeys.Send("{TAB}");
             e.Handled = true;
         }
     }
